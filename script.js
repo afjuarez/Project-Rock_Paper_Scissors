@@ -1,4 +1,14 @@
 
+// Created two variables w/ let so the variables can be updated as the game progresses. Initialized with the starting value of zero. Variables were made global, so that functions can interact with them.
+let computerScore = 0
+let humanScore = 0
+
+
+
+
+
+
+
 // Created a function named getComputerChoice. Inside, we create a variable named comChoice that holds a value returned by the Math.random function (this function returns a number btwn 0 & less than 1). The comChoice variable now holding the value is put through conditional statements that return a response based on the value held by comChoice, which was given to it by the Math.random function
 
 function getComputerChoice() {
