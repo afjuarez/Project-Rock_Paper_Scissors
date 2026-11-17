@@ -105,7 +105,7 @@ function playGame() {
 
     // Prompt's User for their Choice
     function getHumanChoice() {
-     const humanChoice = prompt('You\'re competing against the computer in a game of \'Rock, Paper, Scissors\'. Please enter your selection from thee options below.');
+     const humanChoice = prompt('You\'re competing against the computer in a game of \'Rock, Paper, Scissors\'. Please type your answer in the box below.');
      return humanChoice;
     }
 
